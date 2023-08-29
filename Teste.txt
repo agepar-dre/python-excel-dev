@@ -1,0 +1,268 @@
+Dicionario de dados
+a: tipo+plaqueta+complemento
+b: 000_registro_patrimonial
+c: 001_aval_item_at
+d: 002_aval_item_at_ag
+e: 003_cont_gr
+f: 004_cont_munic
+g: 005_cont_ibge_cod
+h: 006_cont_munic_pref
+i: 007_cont_localid
+j: 008_cont_localid_pref
+k: 009_cont_razao_cod
+l: 010_cont_etapa_cod
+m: 011_cont_gr_cod
+n: 012_cont_analise
+o: 013_cont_ident
+p: 014_cont_tipo
+q: 015_cont_grupo
+r: 016_cont_subgrupo
+s: 017_cont_patrim
+t: 018_cont_compl
+u: 019_cont_serv_cod
+v: 020_cont_serv
+w: 021_cont_macroetapa
+x: 022_cont_desc_bem
+y: 023_cont_qtd
+z: 024_cont_un_medid
+aa: 025_cont_dt_aquis
+ab: 026_cont_dt_imob
+ac: 027_aval_vu_cont1
+ad: 028_cont_dep_tx_perc
+ae: 029_cont_dep_acum_perc
+af: 030_cont_voc
+ag: 031_cont_dep_acum_vlr
+ah: 032_cont_resid_vlr
+ai: 033_cont_dt_ajust
+aj: 034_cont_sri
+ak: 035_cont_analise_desc
+al: 036_cont_eleg
+am: 037_cont_oneros
+an: 038_aval_ref_laudo
+ao: 039_aval_ag_item
+ap: 040_aval_patrim
+aq: 041_aval_localid_pref_fsc
+ar: 042_aval_desc_bem_fsc
+as: 043_aval_serv_cod
+at: 044_aval_eleg
+au: 045_aval_naoeleg_justif
+av: 046_aval_oneros
+aw: 047_aval_situa_invent
+ax: 048_aval_vu_cont2
+ay: 049_aval_voc
+az: 050_aval_dt_inic_oper
+ba: 051_aval_dep_acum_orig_vlr
+bb: 052_aval_resid_vlr
+bc: 053_aval_dep_acum_orig_perc
+bd: 054_aval_vlrfbc_ep
+be: 055_aval_vlrfbc_unt
+bf: 056_aval_qtd_bem
+bg: 057_aval_ea_vlr
+bh: 058_aval_ea_perc
+bi: 059_aval_ca_vlr
+bj: 060_aval_ca_perc
+bk: 061_aval_joa_vlr
+bl: 062_aval_joa_perc
+bm: 063_aval_vnr
+bn: 064_aval_tp_ind_prec
+bo: 065_aval_dt_prec_inic
+bp: 066_aval_dt_base
+bq: 067_aval_ind_prec_inic
+br: 068_aval_ind_prec_fin
+bs: 069_aval_ind_prec_var
+bt: 070_aval_form_prec
+bu: 071_aval_dep_acum_reg_vlr
+bv: 072_aval_dep_acum_reg_perc
+bw: 073_aval_vmu
+bx: 074_aval_ia
+by: 075_aval_ia_justif
+bz: 076_aval_vnr_n_ia
+ca: 077_aval_vnr_ia
+cb: 078_aval_vu_reman_reg
+cc: 079_aval_vmu_n_ia
+cd: 080_aval_vmu_ia
+ce: 081_aval_situa_terr
+cf: 082_aval_ccv
+cg: 083_aval_tp_ind_atualz
+ch: 084_aval_ftr_ind_atualz
+ci: 085_aval_var_ftr_ind_atualz
+cj: 086_aval_vm_sist_corp
+ck: 087_aval_analise
+cl: 088_aval_subconta_inv
+cm: 089_aval_observ2
+cn: 090_aval_laudo_terr
+co: 091_aval_gr_plan
+cp: 110_aval_dt_aquis_poco
+cq: 111_aval_dt_base_poco
+cr: 112_aval_vu_transc_poco
+cs: 113_aval_vu_poco
+ct: 131_agep_analise_desc
+cu: data_atualizacao
+cv: 114_aval_dep_acum_poco
+cw: 115_ONEROSIDADE
+cx: 116_MARCACAO_ONEROSOS
+cy: 117_VALOR_DE_FABRICA_UNITARIO (R$)
+cz: 118_VALOR_FABRICA_TOTAL (R$)
+da: 119_FAB_MARCACAO_GLOSA_AGEPAR
+db: 120_CUSTO_ADICIONAL (R$)
+dc: 121_CUSTO_ADICIONAL_CA_(%)
+dd: 122_JUROS_SOBRE_OBRAS_EM_ANDAMENTO_JOA (R$)
+de: 123_JUROS_SOBRE_OBRAS_EM_ANDAMENTO_JOA_(%)
+df: 124_VALOR_NOVO_DE_REPOSICAO_VNR_POS_GLOSA_REV_CA (R$)
+dg: 124a_VALOR_CCV (R$)
+dh: 125_DEPRECIACAO_POS_GLOSA_ACUMULADA (R$)
+di: 126_qtde_total_BAR
+dj: 127_qtde_total_baixas
+dk: 128_fator_qtde_baixas
+dl: 129_BAIXAS
+dm: 130_Qtd_resultado_baixas
+dn: 131_VNR_efetivo_baixa (R$)
+do: 131a_CCV_efetivo_baixa (R$)
+dp: 132_Deprec_efetivo_baixas (R$)
+dq: 133_VRN_resultado_baixas (R$)
+dr: 133a_CCV_resultado_baixas (R$)
+ds: 134_Deprec_resultado_baixas (R$)
+dt: 135_Residual_resultado_baixas (R$)
+du: 136_nova_taxa_MENSAL (%)
+dv: 137_DEPREC_dez_2020 (R$)
+dw: 138_RESIDUAL_NOVO_DEZ_2020 (R$)
+dx: 139_FATOR_INDICE
+dy: 140_VRN_indice (R$)
+dz: 140a_CCV_indice (R$)
+ea: 141_DEPREC_ACUMULADA_indice (R$)
+eb: 141a_DEPREC_ACUMULADA_indice (R$)_DEDUZIDA_DO_IA_(R$)
+ec: 142_DEPRECIACAO_ACUMULADA_REGULATORIA_%
+ed: 143_VALOR_DE_MERCADO_EM_USO_VMU_R$
+ee: 144_INDICE_DE_APROVEITAMENTO_IA_%
+ef: 145_JUSTIFICATIVA_DO_IA
+eg: 146_PARCELA_NAO_APROVEITAVEL_DO_VNR (R$)
+eh: 147_DIFERENCA_ENTRE_VNR_E_PARCELA_NAO_APROVEITAVEL (R$)
+ei: 148_PARCELA_NAO_APROVEITAVEL_DO_VMU (R$)
+ej: 149_VALOR_DE_MERCADO_EM_USO_DEDUZIDO_DO_IA_(R$)
+ek: 150_taxa_de_depreciacao_remanescente_anual
+el: 151_VIDA_UTIL_REGULATORIA_[ANOS]
+em: 152_ELEGIBILIDADE
+en: 153_CONCILIADOS SOBRAS FÍSICAS COM BASE INCREMENTAL
+eo: 154_Nº PATRIMÔNIO DO ATIVO
+------------------------------
+Formulas:
+Coluna cw (115_ONEROSIDADE):
+cw=IF(IF(IFERROR(VLOOKUP(_xlfn.CONCAT($C;$D),oneroso,1,FALSE),"")<>"","ONEROSOS",AV)=0,"",IF(IFERROR(VLOOKUP(_xlfn.CONCAT($C;$D),oneroso,1,FALSE),"")<>"","ONEROSOS",AV))
+------------------------------
+Coluna cx (116_MARCACAO_ONEROSOS):
+cx=IF(IFERROR(VLOOKUP(_xlfn.CONCAT($C;$D),oneroso,1,FALSE),"")<>"","ATUALIZADOPARAONEROSOS","")
+------------------------------
+Coluna cy (117_VALOR_DE_FABRICA_UNITARIO (R$)):
+cy=IFERROR(VLOOKUP(_xlfn.CONCAT($C;$D),glosa,56,FALSE),$BE)
+------------------------------
+Coluna cz (118_VALOR_FABRICA_TOTAL (R$)):
+cz=CY*BF
+------------------------------
+Coluna da (119_FAB_MARCACAO_GLOSA_AGEPAR):
+da=IF(IFERROR(VLOOKUP(_xlfn.CONCAT($C;$D),glosa,56,FALSE),"")<>"","VALORGLOSADO","")
+------------------------------
+Coluna db (120_CUSTO_ADICIONAL (R$)):
+db=CZ*DC
+------------------------------
+Coluna dc (121_CUSTO_ADICIONAL_CA_(%)):
+dc=IF(BJ=0;0;IF(BJ='[1]TabelaCA'!$D$5;'[1]TabelaCA'!$E$5;IF(BJ='[1]TabelaCA'!$D$4;'[1]TabelaCA'!$E$4;IF(BJ='[1]TabelaCA'!$D$6;'[1]TabelaCA'!$E$6;IF(BJ='[1]TabelaCA'!$D$7;'[1]TabelaCA'!$E$7;IF(BJ='[1]TabelaCA'!$D$8;'[1]TabelaCA'!$E$8;IF(BJ='[1]TabelaCA'!$D$9;'[1]TabelaCA'!$E$9;0)))))))
+------------------------------
+Coluna dd (122_JUROS_SOBRE_OBRAS_EM_ANDAMENTO_JOA (R$)):
+dd=IF(AND(BN="IGP-M";CK=801),CZ*DE,IF(AND(BN="IGP-M";OR(CK=802;CK=803;CK=804;CK=810;CK=811;CK=816)),AF*BS*DE,IF(DE=0;0;(CZ+DB+BG)*DE)))
+------------------------------
+Coluna de (123_JUROS_SOBRE_OBRAS_EM_ANDAMENTO_JOA_(%)):
+de=ROUND(BL;8)
+------------------------------
+Coluna df (124_VALOR_NOVO_DE_REPOSICAO_VNR_POS_GLOSA_REV_CA (R$)):
+df=IF(AND(BT<>"CCV-atualizaçãodovalorcontábil";BN="IGP-M";CK<>801),BM,IF(AND(BE=0;BN="CONFORMECÁLCULODEVAZÃOPROJETADAPARA0"),BM,(CZ+DB+DD+BG)*BS))
+------------------------------
+Coluna dg (124a_VALOR_CCV (R$)):
+dg=IF(BT="CCV-atualizaçãodovalorcontábil";CF;0)
+------------------------------
+Coluna dh (125_DEPRECIACAO_POS_GLOSA_ACUMULADA (R$)):
+dh=IF(BM<>0;BU/BM*DF;IF(AND(CF<>0;BT="CCV-atualizaçãodovalorcontábil"),BU/CF*DG,0))
+------------------------------
+Coluna di (126_qtde_total_BAR):
+di=IFERROR(VLOOKUP(_xlfn.CONCAT($P;"-";$S;"-";$T),baixas,2,FALSE),0)
+------------------------------
+Coluna dj (127_qtde_total_baixas):
+dj=IFERROR(VLOOKUP(_xlfn.CONCAT($P;"-";$S;"-";$T),baixas,3,FALSE),0)
+------------------------------
+Coluna dk (128_fator_qtde_baixas):
+dk=IF(DI<>0;ROUND(DJ/DI;8),0)
+------------------------------
+Coluna dl (129_BAIXAS):
+dl=IFERROR(VLOOKUP(_xlfn.CONCAT($P;"-";$S;"-";$T),baixas,4,FALSE),"")
+------------------------------
+Coluna dm (130_Qtd_resultado_baixas):
+dm=IFERROR((Y/DI)*(DI-DJ),0)
+------------------------------
+Coluna dn (131_VNR_efetivo_baixa (R$)):
+dn=DK*DF
+------------------------------
+Coluna do (131a_CCV_efetivo_baixa (R$)):
+do=DK*DG
+------------------------------
+Coluna dp (132_Deprec_efetivo_baixas (R$)):
+dp=DK*DH
+------------------------------
+Coluna dq (133_VRN_resultado_baixas (R$)):
+dq=DF-DN
+------------------------------
+Coluna dr (133a_CCV_resultado_baixas (R$)):
+dr=DG-DO
+------------------------------
+Coluna ds (134_Deprec_resultado_baixas (R$)):
+ds=DH-DP
+------------------------------
+Coluna dt (135_Residual_resultado_baixas (R$)):
+dt=IF(DQ-DS>0;DQ-DS;IF(DR-DS>0;DR-DS;0))
+------------------------------
+Coluna du (136_nova_taxa_MENSAL (%)):
+du=IF(CB=0;0;IF(DQ<>0;ROUND(((DT/CB/DQ)),8),IF(DR<>0;ROUND(((DT/CB/DR)),8),0)))
+------------------------------
+Coluna dv (137_DEPREC_dez_2020 (R$)):
+dv=IF(BT<>"CCV-atualizaçãodovalorcontábil";IF((((DU*DQ))*60)+DS>DQ,DQ,(((DU*DQ))*60)+DS),IF((((DU*DR))*60)+DS>DR,DR,(((DU*DR))*60)+DS))
+------------------------------
+Coluna dw (138_RESIDUAL_NOVO_DEZ_2020 (R$)):
+dw=IF(BT<>"CCV-atualizaçãodovalorcontábil";DQ-DV;DR-DV)
+------------------------------
+Coluna dy (140_VRN_indice (R$)):
+dy=DQ*DX
+------------------------------
+Coluna dz (140a_CCV_indice (R$)):
+dz=DR*DX
+------------------------------
+Coluna ea (141_DEPREC_ACUMULADA_indice (R$)):
+ea=DX*DV
+------------------------------
+Coluna eb (141a_DEPREC_ACUMULADA_indice (R$)_DEDUZIDA_DO_IA_(R$)):
+eb=IF(EA="";"";IF(EE="";EA;EA*EE))
+------------------------------
+Coluna ec (142_DEPRECIACAO_ACUMULADA_REGULATORIA_%):
+ec=IF(EA<>0;IF(BT<>"CCV-atualizaçãodovalorcontábil";ROUND(EA/DY;8),ROUND(EA/DZ;8)),0)
+------------------------------
+Coluna ed (143_VALOR_DE_MERCADO_EM_USO_VMU_R$):
+ed=IF(BT<>"CCV-atualizaçãodovalorcontábil";DY-EA;DZ-EA)
+------------------------------
+Coluna eg (146_PARCELA_NAO_APROVEITAVEL_DO_VNR (R$)):
+eg=IF(EE="";"";DY-(DY*(EE)))
+------------------------------
+Coluna eh (147_DIFERENCA_ENTRE_VNR_E_PARCELA_NAO_APROVEITAVEL (R$)):
+eh=IF(EG="";DY;DY-EG)
+------------------------------
+Coluna ei (148_PARCELA_NAO_APROVEITAVEL_DO_VMU (R$)):
+ei=IF(EE="";"";ED-(ED*(EE)))
+------------------------------
+Coluna ej (149_VALOR_DE_MERCADO_EM_USO_DEDUZIDO_DO_IA_(R$)):
+ej=IF(EI="";ED;ED-EI)
+------------------------------
+Coluna ek (150_taxa_de_depreciacao_remanescente_anual):
+ek=IF(CB-60>0;ROUND((1-EC)/((CB-60)/12),8),0)
+------------------------------
+Coluna el (151_VIDA_UTIL_REGULATORIA_[ANOS]):
+el=IF(EK<>0;ROUND(1/EK;8),0)
+------------------------------
+Coluna em (152_ELEGIBILIDADE):
+em=IF(IF(DL="TOTAL";"NÃOELEGÍVEIS";AT)=0,"",IF(DL="TOTAL";"NÃOELEGÍVEIS";AT))
+------------------------------
