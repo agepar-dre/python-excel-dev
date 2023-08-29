@@ -25,7 +25,7 @@ Este repositório contém scripts em Python para processamento de dados do Excel
 
 ### funcsexcel.py
 
-`funcsexcel.py` parece ser um módulo personalizado usado em `TstExcel.py`. Provavelmente, ele contém funções personalizadas (`calcular_*`) que são chamadas com base no conteúdo das colunas no arquivo do Excel. Os detalhes exatos das funções não são fornecidos, mas elas parecem ser essenciais para a manipulação de dados em `TstExcel.py`.
+`funcsexcel.py` É um módulo personalizado usado em `TstExcel.py`. Ele contém funções personalizadas (`calcular_*`) que são chamadas com base no conteúdo das colunas no arquivo do Excel. Os detalhes exatos das funções são fornecidos em documentações no próprio código, elas são essenciais para a manipulação de dados em `TstExcel.py`.
 
 ### Teste.txt
 
@@ -42,7 +42,5 @@ Para usar esses scripts, siga estas etapas:
 3. Execute `TstExcel.py`. Ele irá processar os dados, aplicar funções personalizadas e gerar um arquivo de saída chamado `RelAngelo1.txt`.
 
 ## Notas Adicionais
-
-- A funcionalidade exata e o propósito de `funcsexcel.py` não são fornecidos nesta documentação. Para entender completamente seu papel, consulte a implementação específica das funções `calcular_*` dentro do arquivo.
 
 - Certifique-se de que os caminhos para os arquivos de entrada e saída estejam corretamente especificados dentro de `TstExcel.py`.
