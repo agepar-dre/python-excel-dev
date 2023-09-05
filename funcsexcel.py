@@ -152,26 +152,33 @@ def calcular_db(cz, dc):
 
 # -------------------------------------------6------------------------------------------------
 
-def calcular_dc(bj, e, d):
+def calcular_dc(BJ, S4_D_4, S4_E_4, S4_D_5, S4_E_5, S4_D_6, S4_E_6, S4_D_7, S4_E_7, S4_D_8, S4_E_8, S4_D_9, S4_E_9):
     """
-    Calcula a variável dc (121_CUSTO_ADICIONAL_CA_(%)) baseada em diferentes condições usando a tabela TabelaCA.
+    Função que calcula o valor de 'dc' com base nos valores fornecidos.
 
-    Parâmetros:
-    bj (float): Valor da variável 060_aval_ca_perc.
-    e: 003_cont_gr
-    d: 004_cont_munic
+    Inputs:
+    BJ (str): Valor da célula BJ (e.g., 'S4'!$S4_D_4)
+    S4_D_4, S4_E_4, S4_D_5, S4_E_5, S4_D_6, S4_E_6, S4_D_7, S4_E_7, S4_D_8, S4_E_8, S4_D_9, S4_E_9 (float): Valores das células 'S4'!$S4_D_X e 'S4'!$S4_E_X correspondentes a X=4,5,6,7,8,9
 
-    Retorna:
-    dc (float): Valor calculado da variável 121_CUSTO_ADICIONAL_CA_(%).
+    Outputs:
+    dc (float): Valor calculado com base nas condições especificadas na fórmula Excel.
     """
-    if bj == 0:
-        dc = 0
-    elif bj == d:
-        dc = e
+    if BJ == 0:
+        return 0
+    elif BJ == S4_D_5:
+        return S4_E_5
+    elif BJ == S4_D_4:
+        return S4_E_4
+    elif BJ == S4_D_6:
+        return S4_E_6
+    elif BJ == S4_D_7:
+        return S4_E_7
+    elif BJ == S4_D_8:
+        return S4_E_8
+    elif BJ == S4_D_9:
+        return S4_E_9
     else:
-        dc = 0
-
-    return dc
+        return 0
 
 # -------------------------------------------7------------------------------------------------
 
